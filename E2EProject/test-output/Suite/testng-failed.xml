@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="Academy.Listener"/>
+  </listeners>
+  <test name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.ValidationTitle">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Academy.ValidationTitle -->
+      <class name="Academy.Homepageclone">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Academy.Homepageclone -->
+      <class name="Academy.Homepage">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Academy.Homepage -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test3(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.ValidationTitle">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Academy.ValidationTitle -->
+      <class name="Academy.Homepageclone">
+        <methods>
+          <include name="close"/>
+          <include name="basePageNavigation1" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Academy.Homepageclone -->
+      <class name="Academy.Homepage">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Academy.Homepage -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.ValidationTitle">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Academy.ValidationTitle -->
+      <class name="Academy.Homepage">
+        <methods>
+          <include name="basePageNavigation2" invocation-numbers="0 1"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Academy.Homepage -->
+      <class name="Academy.Homepageclone">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Academy.Homepageclone -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="94097" started-at="2020-05-31T13:20:49Z" finished-at="2020-05-31T13:22:23Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="23762" started-at="2020-05-31T13:20:49Z" finished-at="2020-05-31T13:21:13Z">
+      <class name="Academy.ValidationTitle">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.ValidationTitle@67a20f67]" name="basePageNavigation" duration-ms="23350" started-at="2020-05-31T18:50:49Z" finished-at="2020-05-31T18:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Academy.ValidationTitle@67a20f67]" name="close" is-config="true" duration-ms="346" started-at="2020-05-31T18:51:12Z" finished-at="2020-05-31T18:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Academy.ValidationTitle -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="28837" started-at="2020-05-31T13:21:14Z" finished-at="2020-05-31T13:21:43Z">
+      <class name="Academy.Homepage">
+        <test-method status="PASS" signature="basePageNavigation2(java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@39529185]" name="basePageNavigation2" duration-ms="12895" started-at="2020-05-31T18:51:14Z" data-provider="getData" finished-at="2020-05-31T18:51:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john.adarsh.45@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45658]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation2 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Academy.Homepage@39529185]" name="close" is-config="true" duration-ms="181" started-at="2020-05-31T18:51:27Z" finished-at="2020-05-31T18:51:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="basePageNavigation2(java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@39529185]" name="basePageNavigation2" duration-ms="14989" started-at="2020-05-31T18:51:27Z" data-provider="getData" finished-at="2020-05-31T18:51:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john.adarsh.52@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[efwefwf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation2 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Academy.Homepage@39529185]" name="close" is-config="true" duration-ms="767" started-at="2020-05-31T18:51:42Z" finished-at="2020-05-31T18:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Academy.Homepage -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="39591" started-at="2020-05-31T13:21:43Z" finished-at="2020-05-31T13:22:23Z">
+      <class name="Academy.Homepageclone">
+        <test-method status="PASS" signature="basePageNavigation1(java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepageclone@3d51f06e]" name="basePageNavigation1" duration-ms="16362" started-at="2020-05-31T18:51:43Z" data-provider="getData" finished-at="2020-05-31T18:52:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john.adarsh.45@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45658]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation1 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Academy.Homepageclone@3d51f06e]" name="close" is-config="true" duration-ms="1461" started-at="2020-05-31T18:52:00Z" finished-at="2020-05-31T18:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="basePageNavigation1(java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepageclone@3d51f06e]" name="basePageNavigation1" duration-ms="19064" started-at="2020-05-31T18:52:01Z" data-provider="getData" finished-at="2020-05-31T18:52:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john.adarsh.52@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[efwefwf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation1 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Academy.Homepageclone@3d51f06e]" name="close" is-config="true" duration-ms="2699" started-at="2020-05-31T18:52:20Z" finished-at="2020-05-31T18:52:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Academy.Homepageclone -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
