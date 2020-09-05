@@ -33,6 +33,11 @@ public class ValidationTitle extends base {
 		LandingPage l=new LandingPage(driver);
 		Assert.assertEquals(l.getValidationLink().getText(), "Your Store");
 		log.info("Succesfully text verified");
+		System.out.println("Hii updated the code ");
+		System.out.println("Hii updated the code2 ");
+		System.out.println("Hii updated the code 3");
+		System.out.println("Hii updated the code 3");
+		
 	
 	
 	}
